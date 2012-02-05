@@ -40,7 +40,6 @@ public class OverlayService extends Service {
         	    WindowManager.LayoutParams.WRAP_CONTENT,
         	    WindowManager.LayoutParams.WRAP_CONTENT,
         	    WindowManager.LayoutParams.TYPE_SYSTEM_OVERLAY,			// ロック画面より上にくる
-        	    WindowManager.LayoutParams.FLAG_WATCH_OUTSIDE_TOUCH |	// Viewの外のタッチイベントにも反応する？
         	    WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL |		// タッチイベントを拾わない。ロック画面を邪魔しない。
         	    WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,			// フォーカスされない。ハードキーで選ぼうとかしても、無理。
         	    PixelFormat.TRANSLUCENT); 						// ウィンドウの透明化
