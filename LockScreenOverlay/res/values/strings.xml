@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, Setting!</string>
-    <string name="app_name">LockScreenOverlay</string>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">AutoScreenOverlay</string>
     <string name="overlay">This is Overlay View!</string>
+    <string name="changeView1">view1</string>
+    <string name="changeView2">View2</string>
+    <string name="changeView3">View3</string>
 
 </resources>
